@@ -22,10 +22,11 @@ html {
     width: 100%;
     top: 0px;
     left: 0px;
+    box-shadow: 4px 0 10px -3px #010101;
 }
 
 #mainHeading {
-    color: #b2becd;
+    color: red;
     font-size: 20px;
     padding-bottom: 10px;
     font-weight: bold;
@@ -42,11 +43,11 @@ button {
 }
 
 .funParagraph {
-    color: #b2becd;
+    color: rgb(74, 255, 74);
 }
 
 body {
-    margin: 0px;
+    margin: 8px;
     display: block;
     text-align: center;
 }
@@ -62,11 +63,12 @@ footer {
     padding-top: 40px;
 }
 
-#navfoot {
+.navfoot {
     background-color: #2a2e35;
-    padding: 12px;
+    padding: 20px;
     width: 100%;
     position: relative;
+    margin: -8px;
 }
 
 img {
